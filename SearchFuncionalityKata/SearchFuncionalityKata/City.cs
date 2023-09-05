@@ -11,7 +11,10 @@ namespace SearchFuncionalityKata {
 
         public static List<string> Search(string textSearch)
         {
-            return new List<string>();
+            if (textSearch.Length < 2)
+                return new List<string>();
+
+            return Cities.Where(c => c.Contains(textSearch)).ToList();
         }
     }
 }
