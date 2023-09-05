@@ -30,7 +30,7 @@ namespace SearchFuncionalityKata.Tests {
         }
 
         [Test]
-        public void Return_all_cities_when_the_text_is_asterix() {
+        public void Return_all_cities_when_the_text_is_asterisk() {
             var reslut = City.Search("*");
 
             reslut.Should().BeEquivalentTo(new List<string> { "Paris", "Budapest", "Skopje", "Rotterdam", "Valencia", "Vancouver", "Amsterdam", "Vienna", "Sydney", "New York City", "London", "Bangkok", "Hong Kong", "Dubai", "Rome", "Istanbul" });
