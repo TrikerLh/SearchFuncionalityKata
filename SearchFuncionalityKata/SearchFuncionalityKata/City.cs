@@ -11,6 +11,7 @@ namespace SearchFuncionalityKata {
 
         public static List<string> Search(string textSearch)
         {
+            if (textSearch == "*") return Cities;
             if (textSearch.Length < 2)
                 return new List<string>();
 
