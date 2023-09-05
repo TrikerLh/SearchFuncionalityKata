@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchFuncionalityKata", "SearchFuncionalityKata\SearchFuncionalityKata.csproj", "{86688207-4553-4F0D-BEF7-D205F1F2ED50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchFuncionalityKata.Tests", "SearchFuncionalityKata.Tests\SearchFuncionalityKata.Tests.csproj", "{0082F07F-D182-4EEF-9663-2727435999B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86688207-4553-4F0D-BEF7-D205F1F2ED50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86688207-4553-4F0D-BEF7-D205F1F2ED50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86688207-4553-4F0D-BEF7-D205F1F2ED50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86688207-4553-4F0D-BEF7-D205F1F2ED50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0082F07F-D182-4EEF-9663-2727435999B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0082F07F-D182-4EEF-9663-2727435999B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0082F07F-D182-4EEF-9663-2727435999B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0082F07F-D182-4EEF-9663-2727435999B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83543CBB-C5C4-4863-B781-159DD600DB4E}
+	EndGlobalSection
+EndGlobal
