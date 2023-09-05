@@ -14,7 +14,7 @@ namespace SearchFuncionalityKata {
             if (textSearch.Length < 2)
                 return new List<string>();
 
-            return Cities.Where(c => c.ToLower().StartsWith(textSearch.ToLower())).ToList();
+            return Cities.Where(c => c.ToLower().Contains(textSearch.ToLower())).ToList();
         }
     }
 }

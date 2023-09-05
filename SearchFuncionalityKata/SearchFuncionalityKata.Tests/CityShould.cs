@@ -16,10 +16,17 @@ namespace SearchFuncionalityKata.Tests {
 
         [TestCase("Va")]
         [TestCase("va")]
-        public void Return_cities_when_the_name_start_with_text(string textSearch) {
+        public void Return_cities_when_the_name_start_with_the_text(string textSearch) {
             var reslut = City.Search(textSearch);
 
             reslut.Should().BeEquivalentTo(new List<string>{"Valencia", "Vancouver"});
+        }
+
+        [Test]
+        public void Return_cities_when_the_name_contains_the_text() {
+            var reslut = City.Search("ape");
+
+            reslut.Should().BeEquivalentTo(new List<string> { "Budapest" });
         }
     }
 }
